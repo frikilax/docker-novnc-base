@@ -21,6 +21,7 @@ RUN wget https://bintray.com/tigervnc/stable/download_file?file_path=tigervnc-1.
 && cd tigervnc-1.9.0.x86_64 \
 && tar czf usr.tgz usr \
 && tar xzf usr.tgz -C /
+RUN rm tigervnc-1.9.0.x86_64.tar.gz
 
 # Create services for base-image to launch
 RUN mkdir /etc/service/xvnc

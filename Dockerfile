@@ -1,3 +1,6 @@
+### frikilax/novnc-base
+### v1
+
 FROM phusion/baseimage:0.11
 EXPOSE 6080/tcp
 

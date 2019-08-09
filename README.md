@@ -16,7 +16,7 @@ This image comes with no application bundled to launch at startup, but installin
 - This could be used to run several applications in a split view, using ratpoison to display them side-by-side (although it goes against docker's philosophy)
 
 ## Next steps
-- integrate **pathword authentication**
+- integrate **password authentication**
 - use **SSL/TLS** connection
 - **shrink** the image size
 
